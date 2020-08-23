@@ -4,45 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab-01</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div id="a">
-      <h1>960x100</h1>
+      <h1></h1>
       <p>a</p>
     </div>
     <div id="b">
-      <h1>200x600</h1>
+      <h1></h1>
       <p>b</p>
     </div>
     <div id="c">
-      <h1>380x200</h1>
+      <h1></h1>
       <p>c</p>
     </div>
     <div id="d">
-      <h1>380x200</h1>
+      <h1></h1>
       <p>d</p>
     </div>
     <div id="e">
-      <h1>190x250</h1>
+      <h1></h1>
       <p>e</p>
     </div>
     <div id="f">
-      <h1>190x250</h1>
+      <h1></h1>
       <p>f</p>
     </div>
     <div id="g">
-      <h1>190x250</h1>
+      <h1></h1>
       <p>g</p>
     </div>
     <div id="h">
-      <h1>190x250</h1>
+      <h1></h1>
       <p>h</p>
     </div>
     <div id="i">
-      <h1>760x150</h1>
+      <h1></h1>
       <p>i</p>
     </div>
+
+    <script>
+      const divArr = document.querySelectorAll("div");
+      getinfo();
+      window.addEventListener("resize", getinfo);
+      function getinfo() {
+        [...divArr].forEach((div) => {
+          div.children[0].innerHTML = `${div.offsetWidth} x ${div.offsetHeight}`;
+        });
+      }
+    </script>
   </body>
 </html>
