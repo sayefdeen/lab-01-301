@@ -1,0 +1,76 @@
+/* Desktop display */
+@media screen and (min-width: 768px) {
+  section {
+    width: 960px;
+  }
+  #a {
+    width: 100%;
+    height: 100px;
+  }
+  #b {
+    width: 20.83%;
+    height: 600px;
+    float: left;
+  }
+  #c,
+  #d {
+    width: 39.583%;
+    height: 200px;
+    margin: 0;
+    float: right;
+  }
+  #e,
+  #f,
+  #g,
+  #h {
+    width: 19.79%;
+    height: 250px;
+    margin: 0;
+    float: right;
+  }
+  #i {
+    width: 79.166%;
+    height: 150px;
+    margin: 0;
+    float: right;
+  }
+}
+
+/* Moblie display */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  section {
+    max-width: 767px;
+  }
+  #a {
+    width: 100%;
+    height: 75px;
+  }
+  #b {
+    width: 100%;
+    height: 150px;
+    float: left;
+  }
+  #c,
+  #d {
+    width: 100%;
+    height: 125px;
+    margin: 0;
+    float: right;
+  }
+  #e,
+  #f,
+  #g,
+  #h {
+    width: 50%;
+    height: 250px;
+    margin: 0;
+    float: right;
+  }
+  #i {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    float: right;
+  }
+}
