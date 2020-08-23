@@ -9,3 +9,7 @@ div:not(.container) {
   color: black;
   border: 1px solid #000;
 }
+
+section {
+  margin: 0 auto;
+}

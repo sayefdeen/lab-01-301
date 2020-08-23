@@ -7,52 +7,45 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div id="a">
-      <h1></h1>
-      <p>a</p>
-    </div>
-    <div id="b">
-      <h1></h1>
-      <p>b</p>
-    </div>
-    <div id="c">
-      <h1></h1>
-      <p>c</p>
-    </div>
-    <div id="d">
-      <h1></h1>
-      <p>d</p>
-    </div>
-    <div id="e">
-      <h1></h1>
-      <p>e</p>
-    </div>
-    <div id="f">
-      <h1></h1>
-      <p>f</p>
-    </div>
-    <div id="g">
-      <h1></h1>
-      <p>g</p>
-    </div>
-    <div id="h">
-      <h1></h1>
-      <p>h</p>
-    </div>
-    <div id="i">
-      <h1></h1>
-      <p>i</p>
-    </div>
+    <section class="container">
+      <div id="a">
+        <h1></h1>
+        <p>a</p>
+      </div>
+      <div id="b">
+        <h1></h1>
+        <p>b</p>
+      </div>
+      <div id="c">
+        <h1></h1>
+        <p>c</p>
+      </div>
+      <div id="d">
+        <h1></h1>
+        <p>d</p>
+      </div>
+      <div id="e">
+        <h1></h1>
+        <p>e</p>
+      </div>
+      <div id="f">
+        <h1></h1>
+        <p>f</p>
+      </div>
+      <div id="g">
+        <h1></h1>
+        <p>g</p>
+      </div>
+      <div id="h">
+        <h1></h1>
+        <p>h</p>
+      </div>
+      <div id="i">
+        <h1></h1>
+        <p>i</p>
+      </div>
+    </section>
 
-    <script>
-      const divArr = document.querySelectorAll("div");
-      getinfo();
-      window.addEventListener("resize", getinfo);
-      function getinfo() {
-        [...divArr].forEach((div) => {
-          div.children[0].innerHTML = `${div.offsetWidth} x ${div.offsetHeight}`;
-        });
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
