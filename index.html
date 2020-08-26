@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="container">
+    <!-- old solution using float property -->
+    <!-- <section class="container">
       <div id="a">
         <h1></h1>
         <p>a</p>
@@ -44,8 +45,63 @@
         <h1></h1>
         <p>i</p>
       </div>
-    </section>
+    </section> -->
 
+    <!-- Lab 04 Solution Start  -->
+
+    <section id="container">
+      <div id="nav" class="row text-center">
+        <h2></h2>
+        <p>a</p>
+      </div>
+      <section id="second-container" class="row">
+        <div id="b" class="column text-center">
+          <h2></h2>
+          <p>b</p>
+        </div>
+        <section id="column-container" class="column">
+          <section id="change-to-column" class="row">
+            <div id="c" class="column text-center">
+              <h2></h2>
+              <p>c</p>
+            </div>
+            <div id="d" class="column text-center">
+              <h2></h2>
+              <p>d</p>
+            </div>
+          </section>
+          <section class="row">
+            <section id="change-to-column-2" class="row change-width">
+              <div id="e" class="column text-center">
+                <h2></h2>
+                <p>e</p>
+              </div>
+              <div id="f" class="column text-center">
+                <h2></h2>
+                <p>f</p>
+              </div>
+            </section>
+            <section id="change-to-column-3" class="row change-width">
+              <div id="g" class="column text-center">
+                <h2></h2>
+                <p>g</p>
+              </div>
+              <div id="h" class="column text-center">
+                <h2></h2>
+                <p>h</p>
+              </div>
+            </section>
+          </section>
+          <section class="row">
+            <div id="i" class="column text-center">
+              <h2></h2>
+              <p>i</p>
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- Lab 04 Solution End  -->
     <script src="script.js"></script>
   </body>
 </html>

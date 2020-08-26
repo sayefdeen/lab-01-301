@@ -1,4 +1,6 @@
-* {
+/* Lab 01 Solution Begins */
+
+/* * {
   box-sizing: border-box;
 }
 div:not(.container) {
@@ -12,4 +14,17 @@ div:not(.container) {
 
 section {
   margin: 0 auto;
+} */
+
+/* Lab 01 solution Ends */
+
+/* Lab 04 Solution Start */
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
+div {
+  border: 1px solid black;
+}
+
+/* Lab 04 Solution Ends */

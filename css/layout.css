@@ -1,4 +1,4 @@
-/* Desktop display */
+/* 
 @media screen and (min-width: 768px) {
   section {
     width: 960px;
@@ -36,7 +36,6 @@
   }
 }
 
-/* Moblie display */
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   section {
@@ -72,5 +71,143 @@
     height: 80px;
     margin: 0;
     float: right;
+  }
+} */
+/* Desktop */
+@media screen and (min-width: 768px) {
+  #container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .change-width {
+    width: 50%;
+  }
+  #column-container {
+    width: 79.19%;
+  }
+  #nav {
+    height: 100px;
+  }
+  #b {
+    width: 20.83%;
+    height: 600px;
+  }
+  #c,
+  #d {
+    width: 50%;
+    height: 200px;
+  }
+
+  #e,
+  #f,
+  #g,
+  #h {
+    width: 50%;
+    height: 250px;
+  }
+
+  #i {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+/* Tablets */
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  #second-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .change-width {
+    width: 100%;
+  }
+  #column-container {
+    width: 100%;
+  }
+  #container {
+    max-width: 767px;
+  }
+  #change-to-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #nav {
+    width: 100%;
+    height: 75px;
+  }
+  #b {
+    width: 100%;
+    height: 150px;
+  }
+  #c,
+  #d {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+  }
+  #e,
+  #f,
+  #g,
+  #h {
+    width: 100%;
+    height: 250px;
+  }
+  #i {
+    width: 100%;
+    height: 80px;
+  }
+}
+/* Phones */
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  #second-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .change-width {
+    width: 100%;
+  }
+  #column-container {
+    width: 100%;
+  }
+  #container {
+    max-width: 767px;
+  }
+  #change-to-column,
+  #change-to-column-2,
+  #change-to-column-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #nav {
+    width: 100%;
+    height: 75px;
+  }
+  #b {
+    width: 100%;
+    height: 150px;
+  }
+  #c,
+  #d {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+  }
+  #e,
+  #f,
+  #g,
+  #h {
+    width: 100%;
+    height: 250px;
+  }
+  #i {
+    width: 100%;
+    height: 80px;
   }
 }

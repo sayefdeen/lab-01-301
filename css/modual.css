@@ -1,6 +1,5 @@
-/* Desktop View */
-
-div p {
+/* Lab 01 Solution Start */
+/* div p {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -8,4 +7,46 @@ div p {
 
 div h1 {
   padding: 15px;
+} */
+/* Lab 01 Solution Ends */
+
+/* Lab 04 Solution Start */
+#container {
+  margin: 0 auto;
 }
+
+#second-container {
+  max-width: 100%;
+}
+
+.text-center {
+  position: relative;
+}
+
+.text-center p {
+  font-size: 25px;
+  align-self: center;
+}
+
+.text-center h2 {
+  padding-left: 15px;
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  left: 0;
+  top: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Lab 04 Solution ends */
